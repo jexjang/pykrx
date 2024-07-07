@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 # ver_path = convert_path('pykrx/version.py')
 # with open(ver_path) as ver_file:
 #     exec(ver_file.read(), main_ns)
-__version__ = "1.0.45-hotfix"
+__version__ = "1.0.46"
 
 with open("README.md", "r", encoding='UTF-8') as fh:
     long_description = fh.read()
