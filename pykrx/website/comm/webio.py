@@ -4,7 +4,7 @@ from abc import abstractmethod
 
 class Get:
     def __init__(self):
-	self.headers = { 'User-Agent': 'Mozilla/5.0', 'Referer': 'http://data.krx.co.kr/'}
+        self.headers = { 'User-Agent': 'Mozilla/5.0', 'Referer': 'http://data.krx.co.kr/'}
 
 
 
