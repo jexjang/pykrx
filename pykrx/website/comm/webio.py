@@ -20,7 +20,7 @@ class Get:
 
 class Post:
     def __init__(self, headers=None):
-        self.headers = {"User-Agent": "Mozilla/5.0"}
+        self.headers = { 'User-Agent': 'Mozilla/5.0', 'Referer': 'http://data.krx.co.kr/'}
         if headers is not None:
             self.headers.update(headers)
 
